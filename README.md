@@ -163,8 +163,8 @@ better for timings.
 
 ![Jsonic++ versus RapidJSON conformance](sample/jsonic_vs_rapidjson_conformance.png)
 
-On this run, Jsonic++ was 4.46x slower to parse, 1.90x slower to stringify,
-1.64x slower to prettify, and 1.49x slower to traverse for statistics than
+On this run, Jsonic++ was 2.03x slower to parse, 1.84x slower to stringify,
+1.53x slower to prettify, and 1.02x slower to traverse for statistics than
 RapidJSON. Jsonic++ scored higher overall on this benchmark's conformance set
 (127/136 versus 118/136): both passed validation and string parsing, Jsonic++
 passed all double-parsing cases, and RapidJSON passed all byte-for-byte numeric
@@ -172,8 +172,15 @@ round trips.
 
 Library | Conformance | Parse | Stringify | Prettify | Statistics | Code size
 --------|-------------|-------|-----------|----------|------------|----------
-Jsonic++ (C++17) | 127/136 (93.4%) | 26.725 ms | 15.430 ms | 15.386 ms | 0.934 ms | 59,232 bytes
-RapidJSON (C++) | 118/136 (86.8%) | 5.990 ms | 8.107 ms | 9.362 ms | 0.627 ms | Not measured
+Jsonic++ (C++17) | 127/136 (93.4%) | 12.111 ms | 14.810 ms | 14.210 ms | 0.637 ms | 82,528 bytes
+RapidJSON (C++) | 118/136 (86.8%) | 5.962 ms | 8.031 ms | 9.278 ms | 0.627 ms | Not measured
+
+The bounded optimization phase reduced Jsonic++'s median aggregate parse time
+from 26.506 ms to 11.922 ms (55.0%) on this machine. The retained changes are
+bounded `std::string_view` input, `std::from_chars` number conversion with a
+rare compatibility fallback, and an initial two-element array reservation.
+Pointer-cursor and ASCII-only fast-path experiments did not clear the 3%
+retention threshold and were reverted.
 
 Jsonic++ passed all 34 parse-validation, all 66 double-parsing, and all 9
 string-parsing cases. It passed 18 of 27 byte-for-byte round-trip cases; the

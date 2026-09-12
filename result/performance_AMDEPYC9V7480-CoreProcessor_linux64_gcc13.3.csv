@@ -1,32 +1,32 @@
 Type,Library,Filename,Time (ms),FileSize (byte)
-1. Parse,RapidJSON (C++),canada.json,3.847000,0
-1. Parse,RapidJSON (C++),citm_catalog.json,1.331000,0
-1. Parse,RapidJSON (C++),twitter.json,0.812000,0
-2. Stringify,RapidJSON (C++),canada.json,7.093000,0
-2. Stringify,RapidJSON (C++),citm_catalog.json,0.567000,0
-2. Stringify,RapidJSON (C++),twitter.json,0.447000,0
-3. Prettify,RapidJSON (C++),canada.json,7.765000,0
-3. Prettify,RapidJSON (C++),citm_catalog.json,1.013000,0
-3. Prettify,RapidJSON (C++),twitter.json,0.584000,0
-4. Statistics,RapidJSON (C++),canada.json,0.470000,0
+1. Parse,RapidJSON (C++),canada.json,3.836000,0
+1. Parse,RapidJSON (C++),citm_catalog.json,1.325000,0
+1. Parse,RapidJSON (C++),twitter.json,0.801000,0
+2. Stringify,RapidJSON (C++),canada.json,7.017000,0
+2. Stringify,RapidJSON (C++),citm_catalog.json,0.566000,0
+2. Stringify,RapidJSON (C++),twitter.json,0.448000,0
+3. Prettify,RapidJSON (C++),canada.json,7.695000,0
+3. Prettify,RapidJSON (C++),citm_catalog.json,0.998000,0
+3. Prettify,RapidJSON (C++),twitter.json,0.585000,0
+4. Statistics,RapidJSON (C++),canada.json,0.469000,0
 4. Statistics,RapidJSON (C++),citm_catalog.json,0.113000,0
-4. Statistics,RapidJSON (C++),twitter.json,0.044000,0
-5. Sax Round-trip,RapidJSON (C++),canada.json,10.335000,0
-5. Sax Round-trip,RapidJSON (C++),citm_catalog.json,1.472000,0
-5. Sax Round-trip,RapidJSON (C++),twitter.json,1.061000,0
-6. SaxStatistics,RapidJSON (C++),canada.json,2.591000,0
-6. SaxStatistics,RapidJSON (C++),citm_catalog.json,1.025000,0
-6. SaxStatistics,RapidJSON (C++),twitter.json,0.554000,0
-1. Parse,Jsonic++ (C++17),canada.json,21.345000,0
-1. Parse,Jsonic++ (C++17),citm_catalog.json,3.548000,0
-1. Parse,Jsonic++ (C++17),twitter.json,1.832000,0
-2. Stringify,Jsonic++ (C++17),canada.json,13.218000,0
-2. Stringify,Jsonic++ (C++17),citm_catalog.json,1.250000,0
-2. Stringify,Jsonic++ (C++17),twitter.json,0.962000,0
-3. Prettify,Jsonic++ (C++17),canada.json,13.281000,0
-3. Prettify,Jsonic++ (C++17),citm_catalog.json,1.228000,0
-3. Prettify,Jsonic++ (C++17),twitter.json,0.877000,0
-4. Statistics,Jsonic++ (C++17),canada.json,0.719000,0
-4. Statistics,Jsonic++ (C++17),citm_catalog.json,0.165000,0
+4. Statistics,RapidJSON (C++),twitter.json,0.045000,0
+5. Sax Round-trip,RapidJSON (C++),canada.json,10.071000,0
+5. Sax Round-trip,RapidJSON (C++),citm_catalog.json,1.522000,0
+5. Sax Round-trip,RapidJSON (C++),twitter.json,1.031000,0
+6. SaxStatistics,RapidJSON (C++),canada.json,2.595000,0
+6. SaxStatistics,RapidJSON (C++),citm_catalog.json,0.924000,0
+6. SaxStatistics,RapidJSON (C++),twitter.json,0.552000,0
+1. Parse,Jsonic++ (C++17),canada.json,7.308000,0
+1. Parse,Jsonic++ (C++17),citm_catalog.json,3.033000,0
+1. Parse,Jsonic++ (C++17),twitter.json,1.770000,0
+2. Stringify,Jsonic++ (C++17),canada.json,12.616000,0
+2. Stringify,Jsonic++ (C++17),citm_catalog.json,1.238000,0
+2. Stringify,Jsonic++ (C++17),twitter.json,0.956000,0
+3. Prettify,Jsonic++ (C++17),canada.json,12.119000,0
+3. Prettify,Jsonic++ (C++17),citm_catalog.json,1.222000,0
+3. Prettify,Jsonic++ (C++17),twitter.json,0.869000,0
+4. Statistics,Jsonic++ (C++17),canada.json,0.438000,0
+4. Statistics,Jsonic++ (C++17),citm_catalog.json,0.149000,0
 4. Statistics,Jsonic++ (C++17),twitter.json,0.050000,0
-7. Code size,Jsonic++ (C++17),jsonstat,0,59232
+7. Code size,Jsonic++ (C++17),jsonstat,0,82528

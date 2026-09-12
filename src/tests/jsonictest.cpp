@@ -105,7 +105,7 @@ public:
     virtual ParseResultBase* Parse(const char* input, size_t length) const override {
         JsonicParseResult* result = new JsonicParseResult;
         std::string error;
-        if (!json::Document::parse(std::string(input, length), result->root, error)) {
+        if (!json::Document::parse(std::string_view(input, length), result->root, error)) {
             delete result;
             return 0;
         }
