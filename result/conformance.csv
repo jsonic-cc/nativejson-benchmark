@@ -1,0 +1,273 @@
+Type,Library,Test,Result
+1. Parse Validation,RapidJSON (C++),pass01,true
+1. Parse Validation,RapidJSON (C++),pass02,true
+1. Parse Validation,RapidJSON (C++),pass03,true
+1. Parse Validation,RapidJSON (C++),fail02,true
+1. Parse Validation,RapidJSON (C++),fail03,true
+1. Parse Validation,RapidJSON (C++),fail04,true
+1. Parse Validation,RapidJSON (C++),fail05,true
+1. Parse Validation,RapidJSON (C++),fail06,true
+1. Parse Validation,RapidJSON (C++),fail07,true
+1. Parse Validation,RapidJSON (C++),fail08,true
+1. Parse Validation,RapidJSON (C++),fail09,true
+1. Parse Validation,RapidJSON (C++),fail10,true
+1. Parse Validation,RapidJSON (C++),fail11,true
+1. Parse Validation,RapidJSON (C++),fail12,true
+1. Parse Validation,RapidJSON (C++),fail13,true
+1. Parse Validation,RapidJSON (C++),fail14,true
+1. Parse Validation,RapidJSON (C++),fail15,true
+1. Parse Validation,RapidJSON (C++),fail16,true
+1. Parse Validation,RapidJSON (C++),fail17,true
+1. Parse Validation,RapidJSON (C++),fail19,true
+1. Parse Validation,RapidJSON (C++),fail20,true
+1. Parse Validation,RapidJSON (C++),fail21,true
+1. Parse Validation,RapidJSON (C++),fail22,true
+1. Parse Validation,RapidJSON (C++),fail23,true
+1. Parse Validation,RapidJSON (C++),fail24,true
+1. Parse Validation,RapidJSON (C++),fail25,true
+1. Parse Validation,RapidJSON (C++),fail26,true
+1. Parse Validation,RapidJSON (C++),fail27,true
+1. Parse Validation,RapidJSON (C++),fail28,true
+1. Parse Validation,RapidJSON (C++),fail29,true
+1. Parse Validation,RapidJSON (C++),fail30,true
+1. Parse Validation,RapidJSON (C++),fail31,true
+1. Parse Validation,RapidJSON (C++),fail32,true
+1. Parse Validation,RapidJSON (C++),fail33,true
+2. Parse Double,RapidJSON (C++),double01,true
+2. Parse Double,RapidJSON (C++),double02,true
+2. Parse Double,RapidJSON (C++),double03,true
+2. Parse Double,RapidJSON (C++),double04,true
+2. Parse Double,RapidJSON (C++),double05,true
+2. Parse Double,RapidJSON (C++),double06,true
+2. Parse Double,RapidJSON (C++),double07,true
+2. Parse Double,RapidJSON (C++),double08,true
+2. Parse Double,RapidJSON (C++),double09,true
+2. Parse Double,RapidJSON (C++),double10,true
+2. Parse Double,RapidJSON (C++),double11,true
+2. Parse Double,RapidJSON (C++),double12,true
+2. Parse Double,RapidJSON (C++),double13,true
+2. Parse Double,RapidJSON (C++),double14,true
+2. Parse Double,RapidJSON (C++),double15,true
+2. Parse Double,RapidJSON (C++),double16,true
+2. Parse Double,RapidJSON (C++),double17,true
+2. Parse Double,RapidJSON (C++),double18,true
+2. Parse Double,RapidJSON (C++),double19,false
+2. Parse Double,RapidJSON (C++),double20,true
+2. Parse Double,RapidJSON (C++),double21,false
+2. Parse Double,RapidJSON (C++),double22,true
+2. Parse Double,RapidJSON (C++),double23,true
+2. Parse Double,RapidJSON (C++),double24,true
+2. Parse Double,RapidJSON (C++),double25,true
+2. Parse Double,RapidJSON (C++),double26,true
+2. Parse Double,RapidJSON (C++),double27,true
+2. Parse Double,RapidJSON (C++),double28,true
+2. Parse Double,RapidJSON (C++),double29,false
+2. Parse Double,RapidJSON (C++),double30,true
+2. Parse Double,RapidJSON (C++),double31,true
+2. Parse Double,RapidJSON (C++),double32,false
+2. Parse Double,RapidJSON (C++),double33,true
+2. Parse Double,RapidJSON (C++),double34,true
+2. Parse Double,RapidJSON (C++),double35,true
+2. Parse Double,RapidJSON (C++),double36,true
+2. Parse Double,RapidJSON (C++),double37,false
+2. Parse Double,RapidJSON (C++),double38,true
+2. Parse Double,RapidJSON (C++),double39,true
+2. Parse Double,RapidJSON (C++),double40,false
+2. Parse Double,RapidJSON (C++),double41,true
+2. Parse Double,RapidJSON (C++),double42,true
+2. Parse Double,RapidJSON (C++),double43,true
+2. Parse Double,RapidJSON (C++),double44,false
+2. Parse Double,RapidJSON (C++),double45,false
+2. Parse Double,RapidJSON (C++),double46,true
+2. Parse Double,RapidJSON (C++),double47,true
+2. Parse Double,RapidJSON (C++),double48,false
+2. Parse Double,RapidJSON (C++),double49,true
+2. Parse Double,RapidJSON (C++),double50,true
+2. Parse Double,RapidJSON (C++),double51,true
+2. Parse Double,RapidJSON (C++),double52,true
+2. Parse Double,RapidJSON (C++),double53,true
+2. Parse Double,RapidJSON (C++),double54,true
+2. Parse Double,RapidJSON (C++),double55,true
+2. Parse Double,RapidJSON (C++),double56,false
+2. Parse Double,RapidJSON (C++),double57,false
+2. Parse Double,RapidJSON (C++),double58,true
+2. Parse Double,RapidJSON (C++),double59,false
+2. Parse Double,RapidJSON (C++),double60,false
+2. Parse Double,RapidJSON (C++),double61,false
+2. Parse Double,RapidJSON (C++),double62,false
+2. Parse Double,RapidJSON (C++),double63,false
+2. Parse Double,RapidJSON (C++),double64,false
+2. Parse Double,RapidJSON (C++),double65,false
+2. Parse Double,RapidJSON (C++),double66,true
+3. Parse String,RapidJSON (C++),string01,true
+3. Parse String,RapidJSON (C++),string02,true
+3. Parse String,RapidJSON (C++),string03,true
+3. Parse String,RapidJSON (C++),string04,true
+3. Parse String,RapidJSON (C++),string05,true
+3. Parse String,RapidJSON (C++),string06,true
+3. Parse String,RapidJSON (C++),string07,true
+3. Parse String,RapidJSON (C++),string08,true
+3. Parse String,RapidJSON (C++),string09,true
+4. Roundtrip,RapidJSON (C++),roundtrip01,true
+4. Roundtrip,RapidJSON (C++),roundtrip02,true
+4. Roundtrip,RapidJSON (C++),roundtrip03,true
+4. Roundtrip,RapidJSON (C++),roundtrip04,true
+4. Roundtrip,RapidJSON (C++),roundtrip05,true
+4. Roundtrip,RapidJSON (C++),roundtrip06,true
+4. Roundtrip,RapidJSON (C++),roundtrip07,true
+4. Roundtrip,RapidJSON (C++),roundtrip08,true
+4. Roundtrip,RapidJSON (C++),roundtrip09,true
+4. Roundtrip,RapidJSON (C++),roundtrip10,true
+4. Roundtrip,RapidJSON (C++),roundtrip11,true
+4. Roundtrip,RapidJSON (C++),roundtrip12,true
+4. Roundtrip,RapidJSON (C++),roundtrip13,true
+4. Roundtrip,RapidJSON (C++),roundtrip14,true
+4. Roundtrip,RapidJSON (C++),roundtrip15,true
+4. Roundtrip,RapidJSON (C++),roundtrip16,true
+4. Roundtrip,RapidJSON (C++),roundtrip17,true
+4. Roundtrip,RapidJSON (C++),roundtrip18,true
+4. Roundtrip,RapidJSON (C++),roundtrip19,true
+4. Roundtrip,RapidJSON (C++),roundtrip20,true
+4. Roundtrip,RapidJSON (C++),roundtrip21,true
+4. Roundtrip,RapidJSON (C++),roundtrip22,true
+4. Roundtrip,RapidJSON (C++),roundtrip23,true
+4. Roundtrip,RapidJSON (C++),roundtrip24,true
+4. Roundtrip,RapidJSON (C++),roundtrip25,true
+4. Roundtrip,RapidJSON (C++),roundtrip26,true
+4. Roundtrip,RapidJSON (C++),roundtrip27,true
+1. Parse Validation,Jsonic++ (C++17),pass01,true
+1. Parse Validation,Jsonic++ (C++17),pass02,true
+1. Parse Validation,Jsonic++ (C++17),pass03,true
+1. Parse Validation,Jsonic++ (C++17),fail02,true
+1. Parse Validation,Jsonic++ (C++17),fail03,true
+1. Parse Validation,Jsonic++ (C++17),fail04,true
+1. Parse Validation,Jsonic++ (C++17),fail05,true
+1. Parse Validation,Jsonic++ (C++17),fail06,true
+1. Parse Validation,Jsonic++ (C++17),fail07,true
+1. Parse Validation,Jsonic++ (C++17),fail08,true
+1. Parse Validation,Jsonic++ (C++17),fail09,true
+1. Parse Validation,Jsonic++ (C++17),fail10,true
+1. Parse Validation,Jsonic++ (C++17),fail11,true
+1. Parse Validation,Jsonic++ (C++17),fail12,true
+1. Parse Validation,Jsonic++ (C++17),fail13,true
+1. Parse Validation,Jsonic++ (C++17),fail14,true
+1. Parse Validation,Jsonic++ (C++17),fail15,true
+1. Parse Validation,Jsonic++ (C++17),fail16,true
+1. Parse Validation,Jsonic++ (C++17),fail17,true
+1. Parse Validation,Jsonic++ (C++17),fail19,true
+1. Parse Validation,Jsonic++ (C++17),fail20,true
+1. Parse Validation,Jsonic++ (C++17),fail21,true
+1. Parse Validation,Jsonic++ (C++17),fail22,true
+1. Parse Validation,Jsonic++ (C++17),fail23,true
+1. Parse Validation,Jsonic++ (C++17),fail24,true
+1. Parse Validation,Jsonic++ (C++17),fail25,true
+1. Parse Validation,Jsonic++ (C++17),fail26,true
+1. Parse Validation,Jsonic++ (C++17),fail27,true
+1. Parse Validation,Jsonic++ (C++17),fail28,true
+1. Parse Validation,Jsonic++ (C++17),fail29,true
+1. Parse Validation,Jsonic++ (C++17),fail30,true
+1. Parse Validation,Jsonic++ (C++17),fail31,true
+1. Parse Validation,Jsonic++ (C++17),fail32,true
+1. Parse Validation,Jsonic++ (C++17),fail33,true
+2. Parse Double,Jsonic++ (C++17),double01,true
+2. Parse Double,Jsonic++ (C++17),double02,true
+2. Parse Double,Jsonic++ (C++17),double03,true
+2. Parse Double,Jsonic++ (C++17),double04,true
+2. Parse Double,Jsonic++ (C++17),double05,true
+2. Parse Double,Jsonic++ (C++17),double06,true
+2. Parse Double,Jsonic++ (C++17),double07,true
+2. Parse Double,Jsonic++ (C++17),double08,true
+2. Parse Double,Jsonic++ (C++17),double09,true
+2. Parse Double,Jsonic++ (C++17),double10,true
+2. Parse Double,Jsonic++ (C++17),double11,true
+2. Parse Double,Jsonic++ (C++17),double12,true
+2. Parse Double,Jsonic++ (C++17),double13,true
+2. Parse Double,Jsonic++ (C++17),double14,true
+2. Parse Double,Jsonic++ (C++17),double15,true
+2. Parse Double,Jsonic++ (C++17),double16,true
+2. Parse Double,Jsonic++ (C++17),double17,true
+2. Parse Double,Jsonic++ (C++17),double18,true
+2. Parse Double,Jsonic++ (C++17),double19,true
+2. Parse Double,Jsonic++ (C++17),double20,true
+2. Parse Double,Jsonic++ (C++17),double21,true
+2. Parse Double,Jsonic++ (C++17),double22,true
+2. Parse Double,Jsonic++ (C++17),double23,true
+2. Parse Double,Jsonic++ (C++17),double24,true
+2. Parse Double,Jsonic++ (C++17),double25,true
+2. Parse Double,Jsonic++ (C++17),double26,true
+2. Parse Double,Jsonic++ (C++17),double27,true
+2. Parse Double,Jsonic++ (C++17),double28,true
+2. Parse Double,Jsonic++ (C++17),double29,true
+2. Parse Double,Jsonic++ (C++17),double30,true
+2. Parse Double,Jsonic++ (C++17),double31,true
+2. Parse Double,Jsonic++ (C++17),double32,true
+2. Parse Double,Jsonic++ (C++17),double33,true
+2. Parse Double,Jsonic++ (C++17),double34,true
+2. Parse Double,Jsonic++ (C++17),double35,true
+2. Parse Double,Jsonic++ (C++17),double36,true
+2. Parse Double,Jsonic++ (C++17),double37,true
+2. Parse Double,Jsonic++ (C++17),double38,true
+2. Parse Double,Jsonic++ (C++17),double39,true
+2. Parse Double,Jsonic++ (C++17),double40,true
+2. Parse Double,Jsonic++ (C++17),double41,true
+2. Parse Double,Jsonic++ (C++17),double42,true
+2. Parse Double,Jsonic++ (C++17),double43,true
+2. Parse Double,Jsonic++ (C++17),double44,true
+2. Parse Double,Jsonic++ (C++17),double45,true
+2. Parse Double,Jsonic++ (C++17),double46,true
+2. Parse Double,Jsonic++ (C++17),double47,true
+2. Parse Double,Jsonic++ (C++17),double48,true
+2. Parse Double,Jsonic++ (C++17),double49,true
+2. Parse Double,Jsonic++ (C++17),double50,true
+2. Parse Double,Jsonic++ (C++17),double51,true
+2. Parse Double,Jsonic++ (C++17),double52,true
+2. Parse Double,Jsonic++ (C++17),double53,true
+2. Parse Double,Jsonic++ (C++17),double54,true
+2. Parse Double,Jsonic++ (C++17),double55,true
+2. Parse Double,Jsonic++ (C++17),double56,true
+2. Parse Double,Jsonic++ (C++17),double57,true
+2. Parse Double,Jsonic++ (C++17),double58,true
+2. Parse Double,Jsonic++ (C++17),double59,true
+2. Parse Double,Jsonic++ (C++17),double60,true
+2. Parse Double,Jsonic++ (C++17),double61,true
+2. Parse Double,Jsonic++ (C++17),double62,true
+2. Parse Double,Jsonic++ (C++17),double63,true
+2. Parse Double,Jsonic++ (C++17),double64,true
+2. Parse Double,Jsonic++ (C++17),double65,true
+2. Parse Double,Jsonic++ (C++17),double66,true
+3. Parse String,Jsonic++ (C++17),string01,true
+3. Parse String,Jsonic++ (C++17),string02,true
+3. Parse String,Jsonic++ (C++17),string03,true
+3. Parse String,Jsonic++ (C++17),string04,true
+3. Parse String,Jsonic++ (C++17),string05,true
+3. Parse String,Jsonic++ (C++17),string06,true
+3. Parse String,Jsonic++ (C++17),string07,true
+3. Parse String,Jsonic++ (C++17),string08,true
+3. Parse String,Jsonic++ (C++17),string09,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip01,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip02,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip03,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip04,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip05,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip06,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip07,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip08,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip09,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip10,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip11,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip12,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip13,false
+4. Roundtrip,Jsonic++ (C++17),roundtrip14,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip15,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip16,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip17,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip18,false
+4. Roundtrip,Jsonic++ (C++17),roundtrip19,false
+4. Roundtrip,Jsonic++ (C++17),roundtrip20,false
+4. Roundtrip,Jsonic++ (C++17),roundtrip21,false
+4. Roundtrip,Jsonic++ (C++17),roundtrip22,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip23,true
+4. Roundtrip,Jsonic++ (C++17),roundtrip24,false
+4. Roundtrip,Jsonic++ (C++17),roundtrip25,false
+4. Roundtrip,Jsonic++ (C++17),roundtrip26,false
+4. Roundtrip,Jsonic++ (C++17),roundtrip27,false

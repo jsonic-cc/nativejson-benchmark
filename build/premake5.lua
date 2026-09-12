@@ -120,6 +120,7 @@ solution "benchmark"
             "../thirdparty/fastjson/include/",
             "../thirdparty/jsonbox/include/",
             "../thirdparty/jsoncpp/include/",
+            "../thirdparty/jsonic/include/",
             "../thirdparty/rapidjson/include/",
             "../thirdparty/udp-json-parser/",
             "../thirdparty/include/",
@@ -167,7 +168,7 @@ solution "benchmark"
 		links "jsonclibs"
 
 		configuration "gmake"
-			buildoptions "-std=c++14"
+			buildoptions "-std=c++17"
 
 solution "jsonstat"
     configurations { "release" }
@@ -194,6 +195,7 @@ solution "jsonstat"
         "../thirdparty/fastjson/include/",
         "../thirdparty/jsonbox/include/",
         "../thirdparty/jsoncpp/include/",
+        "../thirdparty/jsonic/include/",
         "../thirdparty/rapidjson/include/",
         "../thirdparty/udp-json-parser/",
         "../thirdparty/include/",
@@ -269,5 +271,5 @@ solution "jsonstat"
       linkoptions { "../../thirdparty/ULib/src/ulib/.libs/libulib.a" }
 
 			configuration "gmake"
-				buildoptions "-std=c++14"
+				buildoptions "-std=c++17"
     end

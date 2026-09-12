@@ -134,3 +134,6 @@
 [submodule "thirdparty/boost"]
 	path = thirdparty/boost
 	url = https://github.com/boostorg/boost.git
+[submodule "thirdparty/jsonic"]
+	path = thirdparty/jsonic
+	url = https://github.com/jsonic-cc/jsonic.git

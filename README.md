@@ -6,7 +6,7 @@ Copyright(c) 2014-2016 Milo Yip (miloyip@gmail.com)
 
 ## Introduction
 
-This benchmark evaluates the conformance and performance of 41 open-source C/C++ libraries with JSON parsing/generation capabilities. Performance means speed, memory, and code size.
+This benchmark evaluates the conformance and performance of 44 open-source C/C++ libraries with JSON parsing/generation capabilities. Performance means speed, memory, and code size.
 
 Performance should be concerned only if the results are correct. This benchmark also test the conformance of library towards the JSON standards ([RFC7159], [ECMA-404]).
 
@@ -56,7 +56,7 @@ AllocCount  | Number of memory allocation (including `malloc`, `realloc()`, `new
 
 ## Libraries
 
-Currently 43 libraries are successfully benchmarked. They are listed in alphabetic order:
+Currently 44 libraries are successfully benchmarked. They are listed in alphabetic order:
 
 Library | Language | Version | Notes
 --------|----------|---------|-------------------
@@ -80,7 +80,8 @@ Library | Language | Version | Notes
 [json spirit](http://www.codeproject.com/Articles/20027/JSON-Spirit-A-C-JSON-Parser-Generator-Implemented) | C++ | 4.08 | Need Boost
 [Json Box](https://github.com/anhero/JsonBox) | C++ | 0.6.2
 [JsonCpp](https://github.com/open-source-parsers/jsoncpp) | C++ | 1.0.0
-[hjiang/JSON++](https://github.com/hjiang/jsonxx) | C++ | 
+[Jsonic++](https://github.com/jsonic-cc/jsonic) | C++17 | 07c8e99 | Header-only
+[hjiang/JSON++](https://github.com/hjiang/jsonxx) | C++ |
 [jsmn](https://github.com/zserge/jsmn) | C | | Not parsing number per se, so do it as post-process.
 [jvar](https://github.com/YasserAsmi/jvar) | C++ | v1.0.0 | gcc/clang only |
 [Jzon](https://github.com/Zguy/Jzon) | C++ | v2-1
@@ -149,6 +150,30 @@ The benchmark program reads `data/data.txt` which contains file names of JSON to
 For simplicity, on Linux/OSX users can simply run `make` (or `make CONFIG=release_x32`) at project root to run 4-10 above.
 
 Some libraries, such as Boost, POCO, V8, etc., need to be installed by user manually.
+
+## Jsonic++ Results
+
+Run on 2026-09-12 with GCC 13.3 (`-O3 -march=native`) on an AMD EPYC 9V74.
+Each performance value is the sum of the best of 10 trials for
+`canada.json`, `citm_catalog.json`, and `twitter.json`. RapidJSON was built in
+the same executable as the benchmark's reference implementation. Lower is
+better for timings.
+
+Library | Conformance | Parse | Stringify | Prettify | Statistics | Code size
+--------|-------------|-------|-----------|----------|------------|----------
+Jsonic++ (C++17) | 127/136 (93.4%) | 26.725 ms | 15.430 ms | 15.386 ms | 0.934 ms | 59,232 bytes
+RapidJSON (C++) | 118/136 (86.8%) | 5.990 ms | 8.107 ms | 9.362 ms | 0.627 ms | Not measured
+
+Jsonic++ passed all 34 parse-validation, all 66 double-parsing, and all 9
+string-parsing cases. It passed 18 of 27 byte-for-byte round-trip cases; the
+remaining cases require preserving the original numeric spelling or integer
+precision beyond Jsonic++'s `double` DOM representation. The full raw results
+are in `result/conformance.csv` and
+`result/performance_AMDEPYC9V7480-CoreProcessor_linux64_gcc13.3.csv`.
+
+Memory measurements were disabled for this run because the benchmark's legacy
+allocator-interposition macros do not compile with this host's modern
+libstdc++. Jsonic++ does not expose a SAX API, so the SAX rows are unsupported.
 
 ## Sample Results
 
