@@ -159,6 +159,17 @@ Each performance value is the sum of the best of 10 trials for
 the same executable as the benchmark's reference implementation. Lower is
 better for timings.
 
+![Jsonic++ versus RapidJSON performance](sample/jsonic_vs_rapidjson_performance.png)
+
+![Jsonic++ versus RapidJSON conformance](sample/jsonic_vs_rapidjson_conformance.png)
+
+On this run, Jsonic++ was 4.46x slower to parse, 1.90x slower to stringify,
+1.64x slower to prettify, and 1.49x slower to traverse for statistics than
+RapidJSON. Jsonic++ scored higher overall on this benchmark's conformance set
+(127/136 versus 118/136): both passed validation and string parsing, Jsonic++
+passed all double-parsing cases, and RapidJSON passed all byte-for-byte numeric
+round trips.
+
 Library | Conformance | Parse | Stringify | Prettify | Statistics | Code size
 --------|-------------|-------|-----------|----------|------------|----------
 Jsonic++ (C++17) | 127/136 (93.4%) | 26.725 ms | 15.430 ms | 15.386 ms | 0.934 ms | 59,232 bytes
@@ -175,7 +186,13 @@ Memory measurements were disabled for this run because the benchmark's legacy
 allocator-interposition macros do not compile with this host's modern
 libstdc++. Jsonic++ does not expose a SAX API, so the SAX rows are unsupported.
 
-## Sample Results
+The charts above are generated from the committed CSV data with:
+
+```bash
+python3 result/render_jsonic_readme_charts.py
+```
+
+## Historical Sample Results
 
 Update on: 2016-9-9
 
